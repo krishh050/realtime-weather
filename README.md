@@ -11,7 +11,7 @@
 - Member 3: Krishnapriya M - LBS
 
 ### Hosted Project Link
-https://jovial-semifreddo-225a08.netlify.app/
+https://krishh050.github.io/realtime-weather/
 
 ### Project Description
 A Realtime Weather Website is an interactive platform designed to provide up-to-date weather information and forecasts. It leverages APIs, such as OpenWeatherMap, to fetch real-time weather data for any location or city specified by the user
