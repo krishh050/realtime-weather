@@ -1,0 +1,72 @@
+:root {
+  --bg-color1: #1e293b; /* Background color */
+  --bg-color2: #334155; /* Card background */
+  --accent-color: #0ea5e9; /* Accent color */
+  --text-color: #f8fafc; /* Text color */
+  --hover-color: #0c4a6e; /* Button hover */
+}
+
+body {
+  background: url('img.avif') no-repeat center center fixed;
+  background-size: cover;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.container {
+  background-color: rgba(30, 41, 59, 0.8);
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.header h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--hover-color);
+  transform: scale(1.05);
+}
+
+.card {
+  background-color: var(--bg-color2);
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
